@@ -1,0 +1,17 @@
+.stack
+size = 8
+
+.code
+
+
+lda 10
+
+add 10
+// sum
+sta 0
+
+// exit
+add 32
+sta 4
+
+halt

@@ -1,0 +1,25 @@
+.stack
+size = 12
+
+.code
+
+lda 10
+
+add 16
+// sum
+sta 0
+
+//26
+
+lda 10
+
+IOdevice1
+
+sta 4
+
+cmp
+
+sta 8
+print
+//exit
+halt
